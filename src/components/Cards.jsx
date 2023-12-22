@@ -1,26 +1,20 @@
-// import PropTypes from 'prop-types';
+import { Component } from 'react';
 
-// Cards.propTypes = {
-//   name: PropTypes.string,
-//   nickName: PropTypes.string,
-//   imageUrl: PropTypes.string,
-//   background: PropTypes.string
-// }
-
-export function Cards( { items } ){
-  return (<div id="character-cards">
-    {items.map(item => {
-      return(
-        <div key={item.name} className="card">
-          <div className="card-titles">
-            <h3>{item.name}</h3>
-            <h4>{item.nickName}</h4>
+export class Cards extends Component{
+  render(){
+    return (<div id="character-cards">
+      {this.props.items.map(item => {
+        return(
+          <div key={item.name} className="card">
+            <div className="card-titles">
+              <h3>{item.name}</h3>
+              <h4>{item.nickName}</h4>
+            </div>
+            <img src={item.imageUrl} alt="" />
+            <p>{item.background}</p>
           </div>
-          <img src={item.imageUrl} alt="" />
-          <p>{item.background}</p>
-        </div>
-      )
-    })}
-  </div>)
+        )
+      })}
+    </div>)
+  }
 }
-

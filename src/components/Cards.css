@@ -46,3 +46,7 @@
   word-wrap: break-word;
   width: 200px;
 }
+
+.card p{
+  color: black;
+}

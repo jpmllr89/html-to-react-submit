@@ -2,8 +2,9 @@ import { Component } from 'react';
 
 export class Cards extends Component{
   render(){
+    const sortedItems = this.props.items.sort((a,b) => b.name - a.name);
     return (<div id="character-cards">
-      {this.props.items.map(item => {
+      {sortedItems.map(item => {
         return(
           <div key={item.name} className="card">
             <div className="card-titles">

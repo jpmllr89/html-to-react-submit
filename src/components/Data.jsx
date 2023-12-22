@@ -12,7 +12,7 @@ export const Data = [
   {
     name: "Alfonse Elrich",
     nickName: null,
-    skillset: ["Being Loveable, Alchemy"],
+    skillset: ["Being Loveable", "Alchemy"],
     votes: 110,
     background:
       "Alphonse is a walking suit of armor on a quest to find his real body",

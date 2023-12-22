@@ -1,11 +1,12 @@
 // import { useState } from 'react'
+// import { Component } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
-// import Header from './components/Header'
+import {Header} from './components/Header'
 import { Data } from './components/Data'
 import { Cards } from './components/Cards'
-// import Rankings from './components/Rankings'
+import { Rankings } from './components/Rankings'
 // import { TestCard } from './components/TestCard.jsx'
 
 const workingData = Data;
@@ -16,8 +17,9 @@ function App() {
 
   return (
     <>
-    <h2>Item List</h2>
-    <Cards items={workingData}/>
+      <Header />
+      <Rankings data={workingData}/>
+      <Cards items={workingData}/>
     </>
   )
 }

@@ -8,10 +8,10 @@
 // }
 
 export function Cards( { items } ){
-  return (<div className="card">
+  return (<div id="character-cards">
     {items.map(item => {
       return(
-        <div key={item.name}>
+        <div key={item.name} className="card">
           <div className="card-titles">
             <h3>{item.name}</h3>
             <h4>{item.nickName}</h4>
@@ -21,12 +21,6 @@ export function Cards( { items } ){
         </div>
       )
     })}
-    {/* <div className="card-titles">
-      <h3>{data.name}</h3>
-      <h4>{data.nickName}</h4>
-    </div>
-    <img src={data.imageUrl} alt="" />
-    <p>{data.background}</p> */}
   </div>)
 }
 

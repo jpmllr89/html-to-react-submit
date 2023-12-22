@@ -1,17 +1,23 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+// import { useState } from 'react'
+// import reactLogo from './assets/react.svg'
+// import viteLogo from '/vite.svg'
 import './App.css'
-import Header from './components/Header'
-import Data from './components/Data'
-import Card from './components/Card'
-import Rankings from './components/Rankings'
+// import Header from './components/Header'
+import { Data } from './components/Data'
+import { Cards } from './components/Cards'
+// import Rankings from './components/Rankings'
+// import { TestCard } from './components/TestCard.jsx'
+
+const workingData = Data;
+
+// const items = ["Milk", "Eggs", "Bread", "Cheese", "Butter"]
+// const data = Data;
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <Header/>
+    <h2>Item List</h2>
+    <Cards items={workingData}/>
     </>
   )
 }

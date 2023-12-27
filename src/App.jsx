@@ -1,8 +1,8 @@
 import "./App.css";
-import { Header } from "./components/Header";
+import { Header } from "./components/Header/Header";
 import { Data } from "./components/Data";
-import { Cards } from "./components/Cards";
-import { Rankings } from "./components/Rankings";
+import { Cards } from "./components/Cards/Cards";
+import { Rankings } from "./components/Rankings/Rankings";
 
 const workingData = Data;
 

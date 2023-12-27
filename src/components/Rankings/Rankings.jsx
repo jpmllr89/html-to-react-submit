@@ -14,10 +14,11 @@ export function Rankings({ data }) {
               <th>Votes</th>
             </tr>
             {top5.map((item) => {
+              const classValue = top5.indexOf(item) % 2 === 0 ? "dark" : "light";
               return (
                 <tr
                   key={item.name}
-                  className={top5.indexOf(item) % 2 === 0 ? "dark" : "light"}
+                  className={classValue}
                 >
                   <td>{item.name}</td>
                   <td>{item.skillset.join(", ")}</td>

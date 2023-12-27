@@ -1,4 +1,4 @@
-import 'Rankings.css'
+import './Rankings.css'
 
 export function Rankings( {data} ){
   const top5 = data.sort((a,b) => b.votes - a.votes).slice(0,5);

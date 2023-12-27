@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import 'Cards.css'
+import './Cards.css'
 export class Cards extends Component{
   render(){
     const sortedItems = this.props.items.sort((a,b) => b.name - a.name);

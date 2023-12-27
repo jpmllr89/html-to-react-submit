@@ -8,17 +8,17 @@ export const Data = [
       "Major Armstrong may look big and strong, but deep down he's the biggest sap in the entire show",
     imageUrl:
       "https://www.giantbomb.com/a/uploads/original/1/19821/694167-armstrong.jpg",
-    },
-    {
-      name: "Alfonse Elrich",
-      nickName: null,
-      skillset: ["Being Loveable", "Alchemy"],
-      votes: 110,
-      background:
-        "Alphonse is a walking suit of armor on a quest to find his real body",
-      imageUrl:
-        "https://upload.wikimedia.org/wikipedia/en/7/7c/AlphonseElricArakawa.jpg",
-    },
+  },
+  {
+    name: "Alfonse Elrich",
+    nickName: null,
+    skillset: ["Being Loveable", "Alchemy"],
+    votes: 110,
+    background:
+      "Alphonse is a walking suit of armor on a quest to find his real body",
+    imageUrl:
+      "https://upload.wikimedia.org/wikipedia/en/7/7c/AlphonseElricArakawa.jpg",
+  },
   {
     name: "Edward Elrich",
     nickName: "The Fullmetal Alchemist",

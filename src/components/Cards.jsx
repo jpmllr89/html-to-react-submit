@@ -10,7 +10,7 @@ export class Cards extends Component {
             <div key={item.name} className="card">
               <div className="card-titles">
                 <h3>{item.name}</h3>
-                <h4>{item.nickName}</h4>
+                {item.nickName && <h4>{item.nickName}</h4>}
               </div>
               <img src={item.imageUrl} alt="" />
               <p>{item.background}</p>

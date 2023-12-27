@@ -1,7 +1,7 @@
 - [x] Setup eslint
 - [x] Pass all linting checks
-- [ ] Format code with prettier
-- [ithink?] State should not be duplicated
+- [x] Format code with prettier
+- [x] State should not be duplicated
 - [x] Variables should be named logicially
 - [x] No unneccessary console logs
 - [x] No commented out blocks of code (Code comments are fine)
@@ -12,7 +12,7 @@
 - [x] Set up a react app using Vite
 - [x] draw out your component tree in excalidraw
   - note: See [This Video](https://www.loom.com/share/13ad514f0d804dfeac6c1e487b2ae3dd) on how to submit
-- [almost] Get your react app to look EXACTLY the same as this html project
+- [x] Get your react app to look EXACTLY the same as this html project
 - [x] Use props to customize components that are being used
 - [x] Use conditional rendering to render odd rows as dark and even rows as light with the "light" | "dark" class names
 - [x] Abstract any REPEATED UI into Components
